@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KML DEMO</name>
+	<description>WEBMAPPING LECTURE DEMO</description>
+	<gx:CascadingStyle kml:id="__managed_style_21D5D997981D8221DD1F">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12CAD166B71D8221DD1F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_098EF3E3FD1D8221DD1F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12CAD166B71D8221DD1F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21D5D997981D8221DD1F</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0B17EF996E1D8221DD1E">
+		<name>926 MAIN ST</name>
+		<LookAt>
+			<longitude>-71.82059072545616</longitude>
+			<latitude>42.25134421472553</latitude>
+			<altitude>163.6829614461519</altitude>
+			<heading>317.4158353592059</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>521.5753456950188</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_098EF3E3FD1D8221DD1F</styleUrl>
+		<Point>
+			<coordinates>-71.82067719413479,42.2512274460608,169.2757015536613</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
